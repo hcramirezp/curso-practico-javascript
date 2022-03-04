@@ -63,11 +63,13 @@ body {
 .formulario_input {
     margin-bottom: 0.5rem;
     border-radius: 0.3rem;
+    border: 0.1rem solid var(--black);
 }
 
 .formulario_button {
     margin-bottom: 0.5rem;
     border-radius: 0.3rem;
+    border: 0.1rem solid var(--blue);
     font-size: var(--sm);
     color: var(--blue);
 }
