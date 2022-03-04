@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Curso Práctico de JavaScript en Platzi</title>
+    <link rel="stylesheet" href="./figuras.css">
+    <script src="./figuras.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Figuras geométricas</h1>
+        <p>Este es el primer taller del Curso Práctico de JavaScript</p>
+    </header>
+    <main class="main_container">
+        <section class="figure_container">
+            <h2>Calcula el perímetro y el área de un cuadrado</h2>
+            <form class="formulario" action="">
+                <label class="formulario_label" for="InputCuadrado">Ingresa cuanto mide cada lado del cuadrado:</label>
+                <input class="formulario_input" id="InputCuadrado" type="number"/>
+                <button class="formulario_button" type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                <button class="formulario_button" type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+            </form>
+        </section>
+        <section class="figure_container">
+            <h2>Calcula el perímetro y el área de un triángulo</h2>
+            <form class="formulario" action="">
+                <label class="formulario_label" for="InputTriangulo1">Medida del lado 1 del triángulo:</label>
+                <input class="formulario_input" id="InputTriangulo1" type="number"/>
+                <label class="formulario_label" for="InputTriangulo2">Medida del lado 2 del triángulo:</label>
+                <input class="formulario_input" id="InputTriangulo2" type="number"/>
+                <label class="formulario_label" for="InputTriangulo3">Medida del lado 3 (base) del triángulo:</label>
+                <input class="formulario_input" id="InputTriangulo3" type="number"/>
+                <label class="formulario_label" for="InputTriangulo4">Medida de la altura del triángulo:</label>
+                <input class="formulario_input" id="InputTriangulo4" type="number"/>
+                <button class="formulario_button" type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                <button class="formulario_button" type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+            </form>
+        </section>
+        <section class="figure_container">
+            <h2>Calcula el perímetro y el área de un círculo</h2>
+            <form class="formulario" action="">
+                <label class="formulario_label" for="InputCirculo">Ingresa cuanto mide el radio del círculo:</label>
+                <input class="formulario_input" id="InputCirculo" type="number"/>
+                <button class="formulario_button" type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
+                <button class="formulario_button" type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

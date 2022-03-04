@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --blue: #0f2392;
+    --gray: #403d44;
+    --black: #1b1a19;
+    --sm: 1.2rem;
+    --md: 1.5rem;
+    --lg: 1.8rem;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: var(--md);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 35rem));
+    grid-auto-rows: 1fr;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.figure_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid var(--gray);
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 0.8rem;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: var(--sm);
+}
+
+.formulario_label {
+    margin-bottom: 0.5rem;
+}
+
+.formulario_input {
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.formulario_button {
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: var(--sm);
+    color: var(--blue);
+}
