@@ -9,7 +9,6 @@ function calcularPromGeometrico(listaElementos) {
 
         const promGeometrico = Math.pow(multListaElementos, 1/cantidadElementos);
         return promGeometrico;
-        //console.log("El promedio geométrico de los elementos es " + promGeometrico);
 }
 
 function onClickButtonCalculaPromGeometrico() {
