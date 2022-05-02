@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./reto_taller_4.js"></script>
+    <link rel="stylesheet" href="./reto_taller_4.css">
+    <title>Cuota Crédito | Curso Práctico de JavaScript en Platzi</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Cuota de Crédito</h1>
+        <p>Cuarto taller del Curso Práctico de JavaScript.</p>
+    </header>
+    <section class="container">
+        <h2>Calcula el valor <br> de la cuota mensual <br> de un préstamo</h2>
+        <form class="loan_form">
+            <label for="InputLoan">Ingresa el valor del préstamo</label>
+            <input id="InputLoan" type="number" />
+            <label for="InputRate">Ingresa el valor de la Tasa Efectiva Anual</label>
+            <input id="InputRate" type="number" />
+            <label for="InputTerm">Ingresa el plazo (meses)</label>
+            <input id="InputTerm" type="number" />
+            <button type="button" onclick="onClickButtonCalcularCuotaMensual()">Calcular Cuota</button>
+            <p id="ResultRate"></p>
+            <p id="ResultShare"></p>
+    </section>
+</body>
+</html>
